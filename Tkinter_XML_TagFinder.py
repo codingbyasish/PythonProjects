@@ -60,7 +60,7 @@ search_button.pack(pady=5)
 
 # Parse the XML file
 
-tree = ET.parse('C:/Windows/Professional.xml')
+tree = ET.parse('Professional.xml')
 
 root = tree.getroot()
 
